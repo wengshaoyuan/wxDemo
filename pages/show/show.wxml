@@ -1,0 +1,8 @@
+<view class="contain">
+
+<text >查询城市：{{items.results[0].currentCity}}</text>
+<text>PM值：{{items.results[0].pm25}}</text>
+<text>穿衣指数：{{items.results[0].index[0].des}}</text>
+<text>小提示：{{items.results[0].index[1].des}}</text>
+
+</view>
